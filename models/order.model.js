@@ -10,7 +10,10 @@ const OrderSchema = new Schema({
     Color: { type: Schema.Types.ObjectId, ref: "Color" },
     quantity: { type: Number, default:1 ,required:true },
     delivery:{type:Boolean, default:false},
-    description: { type: String , lowercase:true }
+    description: { type: String , lowercase:true },
+    Subtotal:{type:Number},
+    discount:{type:Number},
+    total:{type:Number}
 },
 {timestamps:{createdAt:true,updatedAt:true}})
 
