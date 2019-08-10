@@ -1,0 +1,7 @@
+module.exports={
+    ACTIVE:"ACTIVE",
+    INACTIVE:"INACTIVE",
+    COMPLETE:"COMPLETE",
+    PENDING:"PENDING",
+    INPROCESS:"IN PROCESS"
+}
