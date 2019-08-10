@@ -1,3 +1,4 @@
 module.exports={
-    EmployeeModel=require("./employee.model")
+    EmployeeModel=require("./employee.model"),
+    CustomerModel=require("./customer.model") 
 }
