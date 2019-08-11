@@ -4,5 +4,6 @@ module.exports={
     EmployeeModel=require("./employee.model"),
     CustomerModel=require("./customer.model"),
     WashPiceModel=require("./washPiece.model"),
-    NameServiceModel=require("./nameService.model")
+    NameServiceModel=require("./nameService.model"),
+    CategoryPiceModel=require("./categoryPice.model")
 }
