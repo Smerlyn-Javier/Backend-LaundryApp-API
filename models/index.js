@@ -1,10 +1,11 @@
 module.exports={
     PlanModel=require("./plan.model"),
     OrderModel=require("./order.model"),
-    EmployeeModel=require("./employee.model"),
     CustomerModel=require("./customer.model"),
+    EmployeeModel=require("./employee.model"),
     WashPiceModel=require("./washPiece.model"),
     NameServiceModel=require("./nameService.model"),
     CategoryPiceModel=require("./categoryPice.model"),
+    OrderHistoryModel=require("./orderHistory.model"),
     IncludeServiceModel=require("./includedServices.model"),
 }
