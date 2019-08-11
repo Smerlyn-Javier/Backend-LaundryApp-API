@@ -1,6 +1,7 @@
 module.exports={
     PlanModel=require("./plan.model"),
     OrderModel=require("./order.model"),
+    ColorModel=require("./color.model"),
     ServiceModel=require("./service.model"),
     CustomerModel=require("./customer.model"),
     EmployeeModel=require("./employee.model"),
