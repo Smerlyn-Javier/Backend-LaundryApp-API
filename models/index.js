@@ -5,5 +5,6 @@ module.exports={
     CustomerModel=require("./customer.model"),
     WashPiceModel=require("./washPiece.model"),
     NameServiceModel=require("./nameService.model"),
-    CategoryPiceModel=require("./categoryPice.model")
+    CategoryPiceModel=require("./categoryPice.model"),
+    IncludeServiceModel=require("./includedServices.model"),
 }
