@@ -6,7 +6,7 @@ const NameServiceSchema = new Schema({
 service:{type:String, required:true},
 included_services:[{type:Schema.Types.ObjectId,ref:"includedServices"}],
 price:{type:String, required:true},
-time:{type:time},
+time:{type:String},
 status:{type:String, default:StatusHelper.ACTIVE}
 
 },{timestamps:{createdAt:true,updatedAt:true}})

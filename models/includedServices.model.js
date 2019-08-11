@@ -5,7 +5,7 @@ const {Schema} = mongoose;
 const IncludedServicesSchema = new Schema({
 
 included_services:{type:String},
-time:{type:time}
+time:{type:String}
 
 },{timestamps:{createdAt:true,updatedAt:true}})
 
