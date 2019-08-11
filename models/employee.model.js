@@ -13,7 +13,7 @@ const EmployeeSchema = new Schema({
     address: { type: String },
     birthday: { type: Date },
     picture: { type: String },
-    roles: { type:Schema.Types.ObjectId, ref: "Role" },
+    role: { type:Schema.Types.ObjectId, ref: "Role" },
     status: { type: String, default: StatusHelper.ACTIVE }
 
 },{timestamps:{updatedAt:true, createdAt:true}})

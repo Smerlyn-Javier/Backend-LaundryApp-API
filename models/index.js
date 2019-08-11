@@ -1,4 +1,5 @@
 module.exports={
+    RoleModel:require("./role.model"),
     PlanModel:require("./plan.model"),
     OrderModel:require("./order.model"),
     ColorModel:require("./color.model"),
