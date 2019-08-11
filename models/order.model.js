@@ -7,6 +7,8 @@ const OrderSchema = new Schema({
     employee: { type: Schema.Types.ObjectId, ref: "Employee" },
     statusOrder: { type: Schema.Types.ObjectId, ref: "StatusOrder" },
     service: { type: Schema.Types.ObjectId, ref: "Service" },
+    currentService:{type:String},
+    aditionalService:[{type:Schema.Types.ObjectId, ref:""}],
     Color: { type: Schema.Types.ObjectId, ref: "Color" },
     quantity: { type: Number, default:1 ,required:true },
     delivery:{type:Boolean, default:false},
