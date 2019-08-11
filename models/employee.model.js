@@ -4,15 +4,16 @@ const {StatusHelper} = require("../helpers");
 
 
 const EmployeeSchema = new Schema({
+
     name: { type: String },
     lastname: { type: String },
-    email: { type: String, unique: true, lowercase: true, required: true },
-    username: { type: String, required: true, unique: true },
-    password: { type: String, required: true },
+    email: { type: String, unique: true, lowercase: true },
+    username: { type: String,  unique: true },
+    password: { type: String },
     address: { type: String },
     birthday: { type: Date },
     picture: { type: String },
-    roles: [{ type: Schema.Types.ObjectId, ref: "Role" }],
+    roles: { type:Schema.Types.ObjectId, ref: "Role" },
     status: { type: String, default: StatusHelper.ACTIVE }
 
 },{timestamps:{updatedAt:true, createdAt:true}})
