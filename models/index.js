@@ -7,6 +7,7 @@ module.exports={
     EmployeeModel=require("./employee.model"),
     WashPiceModel=require("./washPiece.model"),
     NameServiceModel=require("./nameService.model"),
+    StatusOrderModel=require("./statusOrder.model"),
     CategoryPiceModel=require("./categoryPice.model"),
     OrderHistoryModel=require("./orderHistory.model"),
     IncludeServiceModel=require("./includedServices.model"),
