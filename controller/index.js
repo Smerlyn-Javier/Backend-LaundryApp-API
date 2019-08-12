@@ -4,5 +4,6 @@ module.exports = {
     ColorController : require("./color.controller"),
     CustomerController : require("./customer.controller"),
     IncludedServiceController : require("./includedService.controller"),
-    NameServiceController : require("./nameService.controller")
+    NameServiceController : require("./nameService.controller"),
+    OrderController: require("./order.controller")
 }
