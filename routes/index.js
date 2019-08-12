@@ -1,3 +1,15 @@
 module.exports={
-    EmployeeRoutes : require("./employee.routes") 
+    RoleRoutes : require("./role.routes"),
+    PlanRoutes : require("./plan.routes"),
+    ColorRoutes : require("./color.routes"),
+    OrderRoutes : require("./order.routes"),
+    ServiceRoutes : require("./service.routes"),
+    EmployeeRoutes : require("./employee.routes"),
+    CustomerRoutes : require("./customer.routes"),
+    IncludedRoutes : require("./included.routes"),
+    WaschPiceRoutes : require("./waschPice.routes"),
+    StatusOrderRoutes : require("./statusOrder.routes"),
+    NameServiceRoutes : require("./nameService.routes"),
+    OrderHistoryRoutes : require("./orderHistory.routes"),
+    CategoryPiceRoutes : require("./categoryPice.routes"),
 }
