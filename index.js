@@ -12,7 +12,9 @@ const {EmployeeRoutes} = require("./routes")
 //routes
 app.use("/employee",EmployeeRoutes);
 
-
+app.use((err, req, res, next) => {
+    return res.status(err.status || 500).send(err.message);
+  });
 
 
 
