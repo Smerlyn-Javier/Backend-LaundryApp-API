@@ -8,5 +8,6 @@ module.exports = {
     OrderController: require("./order.controller"),
     OrderHistoryController : require("./orderHistory.controller"),
     PlanController : require("./plan.controller"),
-    RoleController: require("./role.controller")
+    RoleController: require("./role.controller"),
+    ServiceController : require("./service.controller")
 }
