@@ -3,5 +3,6 @@ module.exports = {
     CategoryPiceController : require("./categoryPice.controller"),
     ColorController : require("./color.controller"),
     CustomerController : require("./customer.controller"),
-    IncludedServiceController : require("./includedService.controller")
+    IncludedServiceController : require("./includedService.controller"),
+    NameServiceController : require("./nameService.controller")
 }
