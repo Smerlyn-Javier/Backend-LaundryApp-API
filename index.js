@@ -12,17 +12,21 @@ const {EmployeeRoutes} = require("./routes")
 //routes
 app.use("/employee",EmployeeRoutes);
 
+
 app.use((err, req, res, next) => {
     return res.status(err.status || 500).send(err.message);
   });
 
 
 
-mongoose.connect(MONGO_URI,{ useNewUrlParser: true }).then(()=>{
-    app.listen(PORT,()=>{
-        return console.log(`Application running on por ${PORT}`)
-    })
-}).catch(err => {
+  mongoose
+  .connect(MONGO_URI, { useNewUrlParser: true })
+  .then(() => {
+    app.listen(PORT, () => {
+      console.log(`Application running on port ${PORT}`);
+    });
+  })
+  .catch(err => {
     console.log(err);
     process.exit(0);
   });
