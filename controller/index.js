@@ -1,3 +1,4 @@
 module.exports = {
-    EmployeeController : require("./employee.controller")
+    EmployeeController : require("./employee.controller"),
+    CategoryPiceController : require("./categoryPice.controller")
 }
