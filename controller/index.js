@@ -9,5 +9,6 @@ module.exports = {
     OrderHistoryController : require("./orderHistory.controller"),
     PlanController : require("./plan.controller"),
     RoleController: require("./role.controller"),
-    ServiceController : require("./service.controller")
+    ServiceController : require("./service.controller"),
+    StatusOrderController : require("./statusOrder.controller")
 }
