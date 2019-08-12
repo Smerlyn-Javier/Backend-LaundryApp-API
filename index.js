@@ -22,5 +22,8 @@ mongoose.connect(MONGO_URI,{ useNewUrlParser: true }).then(()=>{
     app.listen(PORT,()=>{
         return console.log(`Application running on por ${PORT}`)
     })
-})
+}).catch(err => {
+    console.log(err);
+    process.exit(0);
+  });
 
